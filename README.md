@@ -1,5 +1,6 @@
 # Woocommerce Payment Display with card Grid View CSS
 
+## Global CSS
 ```
 .woocommerce-checkout #order_review #payment ul.payment_methods li.wc_payment_method{
 		display: inline-block;
@@ -22,5 +23,20 @@
 .payment_methods li img{
 	max-height: 60px;
 	margin-top: 5px;
+}
+```
+## Mobile Version CSS
+```
+.woocommerce-checkout #order_review #payment ul.payment_methods li.wc_payment_method{
+	margin: 0 10px 10px 0px;
+}
+.payment_methods li img{
+	max-height: 40px;
+	max-width: 100px;
+	margin-right: 2px;
+  margin-left: 0px;
+}
+.woocommerce-checkout #order_review #payment ul.payment_methods li:nth-child(3){
+	margin-top: 0px;
 }
 ```
