@@ -2,6 +2,7 @@
 
 ## Main Code
 ```
+// Woocommerce Payment Display with card Grid View CSS
 function custom_checkout_styles() {
     // Custom CSS for radio buttons and labels
     echo "
