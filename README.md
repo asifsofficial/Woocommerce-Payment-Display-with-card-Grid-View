@@ -17,7 +17,7 @@ function custom_checkout_styles() {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            padding: 10px 25px;
+            padding: 10px 35px;
             border-radius: 5px;
             cursor: pointer;
         }
@@ -25,16 +25,16 @@ function custom_checkout_styles() {
         /* Add border highlight to the selected payment method label */
         .woocommerce-checkout #payment ul.payment_methods input[type='radio']:checked + label {
             border: 3px dashed rgb(72, 118, 202);
-            padding: 10px 25px;
+            padding: 10px 35px;
             border-radius: 5px;
         }
 
         /* Grid Layout for Payment Method CSS Start */
         .woocommerce-checkout #order_review #payment ul.payment_methods li.wc_payment_method {
             display: inline-block;
-            width: 46%;
+            width: 48.5%;
             border-radius: var(--wd-brd-radius);
-            margin: 0 10px 10px 0;
+            margin: 0 2px;
             background-image: url(/wp-content/uploads/2023/03/element-background-image.svg);
             background-position: center center;
             background-repeat: no-repeat;
@@ -55,6 +55,10 @@ function custom_checkout_styles() {
 
         .payment_methods li img {
             max-height: 100%;
+        }
+        
+        .payment_methods {
+            text-align-last: center;
         }
     </style>
     ";
@@ -78,7 +82,6 @@ function custom_checkout_scripts() {
     ";
 }
 add_action('wp_footer', 'custom_checkout_scripts');
-
 ```
 ## Mobile Version CSS
 ```
