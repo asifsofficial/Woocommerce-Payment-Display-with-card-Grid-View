@@ -32,7 +32,7 @@ function custom_checkout_styles() {
         /* Grid Layout for Payment Method CSS Start */
         .woocommerce-checkout #order_review #payment ul.payment_methods li.wc_payment_method {
             display: inline-block;
-            width: 48.5%;
+            width: 48%;
             border-radius: var(--wd-brd-radius);
             margin: 0 2px;
             background-image: url(/wp-content/uploads/2023/03/element-background-image.svg);
@@ -85,16 +85,8 @@ add_action('wp_footer', 'custom_checkout_scripts');
 ```
 ## Mobile Version CSS
 ```
-.woocommerce-checkout #order_review #payment ul.payment_methods li.wc_payment_method{
-	margin: 0 10px 10px 0px;
-}
+/* Grid Layout for Payment Method CSS Start */
 .payment_methods li img{
 	max-height: 40px;
-	max-width: 100px;
-	margin-right: 2px;
-  margin-left: 0px;
-}
-.woocommerce-checkout #order_review #payment ul.payment_methods li:nth-child(3){
-	margin-top: 0px;
 }
 ```
