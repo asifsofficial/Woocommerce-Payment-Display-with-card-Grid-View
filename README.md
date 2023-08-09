@@ -34,7 +34,7 @@ function custom_checkout_styles() {
             display: inline-block;
             width: 48%;
             border-radius: var(--wd-brd-radius);
-            margin: 0 2px;
+            margin: 2px 2px;
             background-image: url(/wp-content/uploads/2023/03/element-background-image.svg);
             background-position: center center;
             background-repeat: no-repeat;
